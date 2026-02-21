@@ -1,2 +1,1 @@
-dfdfd
-dfd
+print("Hello World")
