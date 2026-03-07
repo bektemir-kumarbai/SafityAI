@@ -1,0 +1,13 @@
+
+
+services:
+  api:
+    build: .
+    container_name: safety_ai_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
