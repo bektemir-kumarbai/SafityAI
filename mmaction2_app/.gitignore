@@ -1,0 +1,21 @@
+# python
+__pycache__/
+*.pyc
+
+# virtual environment
+venv/
+.env/
+
+# uploads
+uploads/
+
+# large files
+*.pth
+*.pt
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
