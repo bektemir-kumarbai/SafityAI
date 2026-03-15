@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+numpy<2.0.0
+opencv-python-headless
+importlib-metadata
+wheel
