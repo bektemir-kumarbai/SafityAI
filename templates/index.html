@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafetyAI Monitor</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SafetyAI Monitor</h1>
+            <div id="status-panel" class="status-normal">
+                <span id="status-indicator" class="pulse"></span>
+                <span id="status-text">Normal</span>
+            </div>
+        </header>
+        
+        <main>
+            <div class="video-container">
+                <img src="/video_feed" alt="Live Video Feed" id="video-stream">
+                <div class="overlay-corners">
+                    <div class="corner top-left"></div>
+                    <div class="corner top-right"></div>
+                    <div class="corner bottom-left"></div>
+                    <div class="corner bottom-right"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
