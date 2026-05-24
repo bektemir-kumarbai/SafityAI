@@ -6,3 +6,6 @@ numpy<2.0.0
 opencv-python-headless
 importlib-metadata
 wheel
+httpx
+jinja2
+python-dotenv
